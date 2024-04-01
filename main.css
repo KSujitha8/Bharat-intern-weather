@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'montserrat', 'monospace';
+    background-image: url('weather.avif');
+    background-size: cover;
+    background-position: top center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
+  }
+  
+ 
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+    input{
+      width: 65%;
+      padding: 0.9% 1%;
+      font-style: italic;
+      font-size: 20px;
+      outline: none;
+      border: solid 2px rgba(180, 132, 246, 0.568);
+      box-shadow: inset;
+      background-color: rgba(49, 41, 41, 0.808);
+      color: rgb(255, 255, 255);
+      border-radius: 30px;
+    }
+    button{
+      width: 10%;
+      height: 30%;
+      cursor: pointer;
+      padding: 5px 2px;
+      font-style: italic;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgba(5, 67, 118, 0.322);
+      color: rgb(86, 3, 135);
+      border-radius: 20px;
+      border: 2px solid rgb(91, 2, 2);
+  }
+  
+  #showW{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 54, 55);
+  }
+  
+  #cityName{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(132, 5, 121);
+    margin-top: 7%;
+    font-size: 40px;
+  }
+  
+  
+  
